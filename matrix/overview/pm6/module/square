@@ -1,0 +1,33 @@
+#!/usr/bin/env perl6
+
+unit package square;
+use Pod::Coverage;
+use Pod::Coverage::Anypod;
+use Pod::Coverage::Full;
+use Pod::Coverage::Result;
+use v5;
+
+=head1 Documentation
+ The inverses of these permutations coupled with the full rank partitioning of
+ B form a full rank partitioning of the original matrix A.
+ For a square matrix of rank r, this kind of partitioning implies that there
+ is a full rank r × r principal submatrix, and the principal submatrix formed
+ by including any of the remaining diagonal elements is singular. The princi-
+ pal minor formed from the full rank principal submatrix is nonzero, but if
+ the order of the matrix is greater than r, a principal minor formed from a
+ submatrix larger than r × r is zero.
+=cut
+
+sub inverses(x, array) is export {
+    my $*RAKU = mix @*ARGS.dynamic();
+    my $*SAMPLER = array.append = Positional - -"*@values";
+    my $*KERNEL = callsame = --"mix" + \Mu;
+    my $! = lc Cool = Cool.append(|val = 'is-prime');
+    my $*HOME = array;
+
+    if (Array, mix ! = --'infix:<eq>' eq Positional - -'*values') {
+        $*HOME.absolute = Array.dynamic + \Mu;
+    }
+
+}
+

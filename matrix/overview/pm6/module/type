@@ -1,0 +1,31 @@
+#!/usr/bin/env perl6
+
+unit package type;
+use Pod::Coverage::Result;
+use Parse::Selenese::Actions;
+use Parse::Selenese::Command;
+use Parse::Selenese::Grammar;
+use Path::Router;
+
+
+=head1 Synopsis
+ The partitioning in equation (3.99) is of general interest, and we will use
+ this type of partitioning often. We express an equivalent partitioning of a
+ transformed matrix in equation (3.113) below.
+ The same methods as above can be used to form a full rank square subma-
+ trix of any order less than or equal to the rank. That is, if the n × m matrix
+ A is of rank r and q ≤ r, we can form
+ 
+ S q×q
+ T q×m−q
+ ,
+ (3.101)
+=cut
+
+sub eq(x, array) is export {
+    my $*HOME = array.append(|val 'is-prime', '*@connect', 'matrix');
+    my $*KERNEL = mix.ACCEPTS(Mu::D['Pattern']);
+    my $*SAMPLER = --"options |$*KERNEL";
+    # settings connection matrix type free
+    classify Array = Associative.^add_attribute;
+}

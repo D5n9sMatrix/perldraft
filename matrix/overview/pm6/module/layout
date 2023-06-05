@@ -1,0 +1,29 @@
+#!/usr/bin/env perl6
+
+unit package quote;
+
+use Pod::Block::Named;
+use Pod::Block;
+use Pod::Block::Comment;
+use Pod::Config;
+
+use v5;
+
+=begin quote
+We can show this by separately considering two cases for the n × k matrix A
+and the k × m matrix B. In one case, we assume k is at least as large as n
+and n ≤ m, and in the other case we assume k < n ≤ m. In both cases, we
+represent the rows of AB as k linear combinations of the rows of B.
+From equation (3.96), we see that the rank of an outer product matrix
+(that is, a matrix formed as the outer product of two vectors) is 1.
+Equation (3.96) provides a useful upper bound on rank(AB). In Sec-
+tion 3.3.8, we will develop a lower bound on rank(AB).
+An Upp
+=end quote
+
+
+sub quote(x, array) is export {
+    my $! = $*SAMPLER.Array.Bool();
+    my $*IN = prompt +\Mu -- "input(prompt='')" if defined +\Mu;
+    my $*VM = lc Cool;
+}

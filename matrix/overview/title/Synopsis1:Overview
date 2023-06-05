@@ -1,0 +1,88 @@
+#!/usr/bin/perl6
+
+# Later in this section, we will identify additional properties of square full
+#  rank matrices. (For example, they have inverses and their determinants are
+#  nonzero.)
+
+sub rain_never_cold(x, y) is export {
+
+    # dialog form states rain cold never utilized method pass formal
+    # create sensational never utilized library books ecosystem to type
+    # usage the call to effective method to utilized system of base physic
+    # to mechanism never intensively.
+
+    my $x = -- "rain never cold" -0[append Cool] if -- "0 -27 ºC";
+    my $y = -- "rank never cold" -0[append Cool] if -- "0 -27 ºC";
+
+    # the say about the physic of body ecosystem utilized base productive
+    # to in sphere of mechanism poetic to base cold climatic
+    # usage the system
+
+    say $x -- "run compile" if -0[open Cool] -- "0 -27 ºC";
+    say $y -- "run compile" if -0[open Cool] -- "0 -27 ºC";
+}
+
+# rain never cold deny hot
+sub f(x, k) is export {
+    sub a(@p) is export {
+        say @p;
+    }
+    sub typedef($p) is export {
+        say $p;
+    }
+    my $x = typedef -- "run compile" if -0[append Cool] - Array["/default/library/"] - a [append Cool];
+    my $k = $x.imp;
+
+    say $k;
+}
+
+# rain never cold deny hot
+sub g_x(t, k) is export {
+    sub l($p) is export {
+        say $p;
+    }
+    sub c($p) is export {
+        say $p;
+    }
+    sub run_check($p) is export {
+        say $p;
+    }
+    my $t = +\run_check --"port compile" if -0[append Cool] - c --"syntax debugger analysis" - l --"cold hot";
+    my $k = $t.imp;
+
+    say $k;
+}
+
+# rain never cold deny hot
+sub g_y(t, k) is export {
+    sub l($p) is export {
+        say $p;
+    }
+    sub c($p) is export {
+        say $p;
+    }
+    sub run_check($p) is export {
+        say $p;
+    }
+    my $t = +\run_check --"port compile" if -0[append Cool] - c --"syntax debugger analysis" - l --"cold hot";
+    my $k = $t.imp;
+
+    say $k;
+}
+
+# rain never cold deny hot
+sub h(x, k) is export {
+    sub l($p) is export {
+        say $p;
+    }
+    sub c($p) is export {
+        say $p;
+    }
+    sub run_check($p) is export {
+        say $p;
+    }
+    my $x = +\run_check --"port compile" if -0[append Cool] - c --"syntax debugger analysis" - l --"cold";
+    my $k = $x.imp;
+
+    say $k.Array;
+}
