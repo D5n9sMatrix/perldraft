@@ -17,7 +17,7 @@ m <- function (ij, e1, e2){
 m(ij = 1, e1 = 3.50, e2 = 3.50) - 1
 
 # If X = 0, we are ﬁnished; otherwise, we perform the same kinds of operations
-# on the (n − 1) × (m − 1) matrix X and continue until we have the form of
+# on the (n − 1) × (m − 1) matrix X and StartPlay until we have the form of
 # equation (3.113).
 n <- 1
 m(ij = 1, e1 = 3.50, e2 = 3.50) * n - n
